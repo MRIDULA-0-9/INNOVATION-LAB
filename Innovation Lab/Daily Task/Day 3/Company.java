@@ -1,6 +1,6 @@
 public class Company {
 
-    static String companyName = "TCS";
+    static String companyName = "WIPRO";
     String employeeName;
     
     public Company(String employeeName){
@@ -13,9 +13,9 @@ public class Company {
     }
 
     public static void main(String[] args) {
-        Company company1 = new Company("John");
-        Company company2 = new Company("Paul");
-        Company company3 = new Company("Jeslin");
+        Company company1 = new Company("Sruthi");
+        Company company2 = new Company("Maya");
+        Company company3 = new Company("Abc");
         
         
         company1.display();
